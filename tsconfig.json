@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2015",//어떤 버전으로 컴파일하고 싶은지?
+        "sourceMap":true,  //소스맵 처리를 하고 싶은지 ?
+        "outDir": "dist"  //컴파일된 모든것은 dist로 
+    },
+    "include":["src/**/*"],  //ts는 모두 src로 들어감
+    "exclude": ["node_modles"]
+}
+
+
+//node.js를 평범하게 사용하고 다양한걸 import하거나 export할 수 있게 만드는것임 
